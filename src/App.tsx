@@ -19,6 +19,7 @@ import SubjectDetail from './pages/SubjectDetail'
 import AcademicWork from './pages/AcademicWork'
 import Publications from './pages/Publications'
 import AskMaheshChat from './pages/AskMaheshChat'
+import AskMaheshWidget from './components/AskMaheshWidget'
 const navItems = [
   { label: 'Home', path: '/' },
   { label: 'About', path: '/about' },
@@ -168,6 +169,7 @@ export default function App() {
         </main>
 
         <Footer />
+        <AskMaheshWidget />
       </div>
     </HashRouter>
   )
