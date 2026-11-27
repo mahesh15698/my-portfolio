@@ -18,6 +18,7 @@ import ResearchSubjects from './pages/ResearchSubjects'
 import SubjectDetail from './pages/SubjectDetail'
 import AcademicWork from './pages/AcademicWork'
 import Publications from './pages/Publications'
+import AskMaheshChat from './pages/AskMaheshChat'
 const navItems = [
   { label: 'Home', path: '/' },
   { label: 'About', path: '/about' },
@@ -162,6 +163,7 @@ export default function App() {
             <Route path="/research/subjects/:subjectId/:workId" element={<AcademicWork />} />
             <Route path="/research/publications" element={<Publications />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/ask-mahesh" element={<AskMaheshChat />} />
           </Routes>
         </main>
 
