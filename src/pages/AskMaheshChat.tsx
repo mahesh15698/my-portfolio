@@ -262,7 +262,7 @@ export default function AskMaheshChat() {
       <div className="mb-6 flex flex-wrap items-start justify-between gap-4">
         <div>
           <p className="text-xs font-semibold uppercase tracking-widest text-blue-700">
-            Local Development Preview
+            PROFESSIONAL AI ASSISTANT
           </p>
 
           <h1 className="mt-2 text-3xl font-bold text-[#182848] sm:text-4xl">
@@ -306,7 +306,7 @@ export default function AskMaheshChat() {
           </div>
 
           <span className="rounded-full bg-emerald-50 px-3 py-1 text-xs font-medium text-emerald-700">
-            Local Preview
+            Ask Me Anything
           </span>
         </div>
 
